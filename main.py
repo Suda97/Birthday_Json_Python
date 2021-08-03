@@ -9,7 +9,7 @@ if __name__ == '__main__':
         print(i + ": " + data[y])
 
     name = input("Give me new name: ")
-    year = input("Give me year of birth of that person: ")
+    year = input("Give me date of birth of that person (mm/dd/yyyy): ")
     entry = {name: year}
     data.update(entry)
 
